@@ -15,7 +15,7 @@ public class DemoherokuApplication {
     }
     @GetMapping("/test")
     public String index(){
-        return "TEST PAGE";
+        return "TEST PAGE2222222222222222222222222";
     }
 
     public static void main(String[] args) {
