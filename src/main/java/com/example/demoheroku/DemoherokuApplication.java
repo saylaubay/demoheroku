@@ -13,6 +13,10 @@ public class DemoherokuApplication {
     public String home(){
         return "Demo Heroku";
     }
+    @GetMapping("/test")
+    public String index(){
+        return "TEST PAGE";
+    }
 
     public static void main(String[] args) {
         SpringApplication.run(DemoherokuApplication.class, args);
